@@ -7,13 +7,13 @@ public class Multime {
     public Multime() {
         date = new int[dim];
         this.dim = 10;
-        this.n = n;
+        this.n = 0;
     }
 
     public Multime(int dim) {
         this.dim = 10;
         date = new int[dim];
-        this.n = n;
+        this.n = 0;
     }
 
     public void adauga(int a) {
