@@ -17,10 +17,6 @@ public class Multime {
     }
 
     public void adauga(int a) {
-        if(n == 0){
-            date[0] = a;
-            n=1;
-        }else {
             if (n < dim) {
                 int i = 0;
                 while (date[i] != a && i < n) {
@@ -32,7 +28,7 @@ public class Multime {
                 }
             } else {
                 System.out.println("Multimea nu mai accepta niciun element!");
-            }
+            
         }
     }
 
